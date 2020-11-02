@@ -1,3 +1,5 @@
+const $ = id => document.getElementById(id)
+
 const appid =
 [
 '26LQEH-YT3P6T3YY9',
@@ -6,6 +8,7 @@ const appid =
 'P3WLYY-2G9GA6RQGE',
 'P7JH3K-27RHWR53JQ',
 'L349HV-29P5JV8Y7J',
+'77PP56-XLQK5GKUAA',
 ]
 
 const url = () =>
@@ -13,7 +16,7 @@ const url = () =>
 https://cors-anywhere.herokuapp.com/
 http://api.wolframalpha.com/v2/query?
 &appid=${ appid[Date.now() % appid.length] }
-&input=${ encodeURIComponent( document.getElementById('input').value ) }
+&input=${ encodeURIComponent($('input').value) }
 &podstate=Step-by-step solution
 &podstate=Step-by-step
 &podstate=Show all steps
@@ -21,6 +24,7 @@ http://api.wolframalpha.com/v2/query?
 `
 
 function query() {
+    $('paragraph').prepend(' please wait')
     fetch(
         url()
     ).then(
@@ -32,8 +36,13 @@ function query() {
     ).then(
         xml => xml.replace(/'\s*s/g, '</h1><!')
     ).then(
-        xml => document.getElementById('p').innerHTML = xml
+        xml => $('paragraph').innerHTML = xml
     )
+}
+
+if (window.location.search.includes('?i=')) {
+    $('input').value = window.location.search.substring(3).replace(/&.*/, '')
+    query()
 }
 
 document.getElementById('button').addEventListener('click', query)
