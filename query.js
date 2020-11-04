@@ -48,4 +48,7 @@ if (window.location.search.includes('?i=')) {
 document.getElementById('button').addEventListener('click', query)
 
 console.log(window.location.search.substring(3).replace(/&.*/, ''))
+console.log(window.parent)
+console.log(window.parent.location)
+console.log(window.parent.location.search)
 console.log(window.parent.location.search.substring(3).replace(/&.*/, ''))
