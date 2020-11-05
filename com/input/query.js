@@ -41,7 +41,7 @@ function query() {
 }
 
 if (window.location.search.includes('?i=')) {
-    $('input').value = window.location.search.substring(3).replace(/&.*/, '')
+    $('input').value = decodeURIComponent( window.location.search.substring(3).replace(/&.*/, '') )
     query()
 }
 
