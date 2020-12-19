@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Lin2Jing4",
+      "name": "Lin2Jing4",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/35728132?v=4",
+      "profile": "http://fsf.org",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Lin2Jing4-personal-sandbox",
+  "projectOwner": "Lin2Jing4-personal-sandbox",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
