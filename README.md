@@ -1,4 +1,7 @@
 Unlock/Receive free unlimited access to Wolfram|Alpha's full **Step-by-step** solutions **WITHOUT paying** or upgrading to Pro account.
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # DIY
 ## Step 1: Create a Wolfram ID
@@ -15,3 +18,22 @@ Unlock/Receive free unlimited access to Wolfram|Alpha's full **Step-by-step** so
 - Navigate to https://www.wolframcloud.com/view/newNotebook?type=wanb
 - Type in `y'' + y' + y = 1` after `=` and hit `Enter`
 - Click `full Wolfram|Alpha results` and click `Step-by-step solution`
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://fsf.org"><img src="https://avatars2.githubusercontent.com/u/35728132?v=4" width="100px;" alt=""/><br /><sub><b>Lin2Jing4</b></sub></a><br /><a href="#maintenance-Lin2Jing4" title="Maintenance">🚧</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
