@@ -12,7 +12,8 @@
       "profile": "http://fsf.org",
       "contributions": [
         "maintenance",
-        "code"
+        "code",
+        "test"
       ]
     }
   ],
