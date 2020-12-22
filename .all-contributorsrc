@@ -14,7 +14,8 @@
         "maintenance",
         "code",
         "test",
-        "tool"
+        "tool",
+        "translation"
       ]
     }
   ],
