@@ -28,7 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://fsf.org"><img src="https://avatars2.githubusercontent.com/u/35728132?v=4" width="100px;" alt=""/><br /><sub><b>Lin2Jing4</b></sub></a><br /><a href="#maintenance-Lin2Jing4" title="Maintenance">🚧</a> <a href="https://github.com/Lin2Jing4-personal-sandbox/Lin2Jing4-personal-sandbox/commits?author=Lin2Jing4" title="Code">💻</a> <a href="https://github.com/Lin2Jing4-personal-sandbox/Lin2Jing4-personal-sandbox/commits?author=Lin2Jing4" title="Tests">⚠️</a> <a href="#tool-Lin2Jing4" title="Tools">🔧</a></td>
+    <td align="center"><a href="http://fsf.org"><img src="https://avatars2.githubusercontent.com/u/35728132?v=4" width="100px;" alt=""/><br /><sub><b>Lin2Jing4</b></sub></a><br /><a href="#maintenance-Lin2Jing4" title="Maintenance">🚧</a> <a href="https://github.com/Lin2Jing4-personal-sandbox/Lin2Jing4-personal-sandbox/commits?author=Lin2Jing4" title="Code">💻</a> <a href="https://github.com/Lin2Jing4-personal-sandbox/Lin2Jing4-personal-sandbox/commits?author=Lin2Jing4" title="Tests">⚠️</a> <a href="#tool-Lin2Jing4" title="Tools">🔧</a> <a href="#translation-Lin2Jing4" title="Translation">🌍</a></td>
   </tr>
 </table>
 
