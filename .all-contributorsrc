@@ -15,7 +15,8 @@
         "code",
         "test",
         "tool",
-        "translation"
+        "translation",
+        "platform"
       ]
     }
   ],
